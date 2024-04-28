@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="row">
+
+            <div class="col text-center">
+                <h1>Tic Tac Toe <span id="spanmessage" class="mt-3"></span></h1>
+
+                <div class="row">
+                    <div class="col cell" data-index="0"></div>
+                    <div class="col cell" data-index="1"></div>
+                    <div class="col cell" data-index="2"></div>
+                </div>
+                <div class="row">
+                    <div class="col cell" data-index="3"></div>
+                    <div class="col cell" data-index="4"></div>
+                    <div class="col cell" data-index="5"></div>
+                </div>
+                <div class="row">
+                    <div class="col cell" data-index="6"></div>
+                    <div class="col cell" data-index="7"></div>
+                    <div class="col cell" data-index="8"></div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="col text-center">
+            <button class="btn btn-primary my-3" id="reset-button">Reset Game</button>
+            <a class="btn btn-danger my-3"  href="../index.html">Back To Main</a>
+            <p class="fs-5" id="status">Player's turn</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
